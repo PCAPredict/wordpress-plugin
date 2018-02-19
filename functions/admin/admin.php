@@ -6,7 +6,7 @@
  *
  * @author 		PCA Predict
  * @package 	pcapredict/admin
- * @version     1.0.2
+ * @version     1.0.5
  */
  
 /* exist if directly accessed */

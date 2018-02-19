@@ -3,7 +3,7 @@
 Plugin Name: PCA Predict
 Plugin URI: https://www.pcapredict.com
 Description: Address verification made easy - a faster, smarter way to capture and verify addresses, phone and email
-Version: 1.0.4
+Version: 1.0.5
 Author: PCA Predict
 Author URI: https://www.pcapredict.com
 License: GPLv2 or later

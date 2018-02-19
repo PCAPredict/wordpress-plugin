@@ -6,7 +6,7 @@
  *
  * @author 		PCAPredict
  * @package 	pcapredict
- * @version     1.0.2
+ * @version     1.0.5
  */
  
 /* exist if directly accessed */
@@ -171,7 +171,7 @@ function pcapredict_hook_javascript() {
 									for (var j = 0; j < el.options.length; j++) {
 										if (el.options[j].value === address.CountryIso2) {
 											el.selectedIndex = j;
-											if ($ && Select2) {
+											if (typeof($) != "undefined" && typeof(Select2) != "undefined") {
 												$('select').trigger('change.select2');
 											}
 											break;
@@ -193,13 +193,16 @@ function pcapredict_hook_javascript() {
 									for (var j = 0; j < el.options.length; j++) {
 										if (el.options[j].text === address.ProvinceName) {
 											el.selectedIndex = j;
-											if ($ && Select2) {
+											if (typeof($) != "undefined" && typeof(Select2) != "undefined") {
 												$('select').trigger('change.select2');
 											}
 											break;
 										}
 									}
 									pca.fire(el, 'change');
+								}else if(el && !el.options){
+									//text box
+									el.value = address.ProvinceName;
 								}
 							}
 						}

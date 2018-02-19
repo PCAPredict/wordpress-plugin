@@ -5,7 +5,7 @@ Plugin URI: https://www.pcapredict.com
 Tags: pcapredict, address, validation, woocommerce, verification, autofill, autocomplete, autosuggest, form, real-time, realtime, usps, paf, royal mail, postcode, addresses, data, international, uk, usa, checkout
 Requires at least: 4.0
 Tested up to: 4.6.1
-Stable tag: 1.0.2
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ Yes, if you are a new PCA Predict customer, just get started by signing up for a
 Yes, you will need to enter your PCA Predict Accountcode as part of the plugin install process.
 
 == Changelog ==
+
+= 1.0.5 =
+* Bug fix on checkout when used with the WooCommerce plugin.
 
 = 1.0.2 =
 * Fixes following plugin submission report
