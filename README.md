@@ -58,4 +58,5 @@ Yes, you will need to enter your Loqate account code as part of the plugin insta
 * Initial release!
 
 == Upgrade Notice ==
+
 Update through the WordPress admin as notified; always be sure to make a site backup before upgrading.
