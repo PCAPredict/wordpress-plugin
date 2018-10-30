@@ -1,4 +1,5 @@
 === Plugin Name ===
+
 Contributors: loqate
 Author URI: https://www.loqate.com
 Plugin URI: https://www.loqate.com
